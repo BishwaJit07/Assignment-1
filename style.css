@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    font-family: 'Work Sans';
+}
+
+.hover {
+   
+    background-image: url(images/banner/banner1.png);
+    
+    width: 1000px;
+  
+    background-size: 100% 100%;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.header{
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 845px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+    width: 525px;
+    height: 228px;
+    text-align: left;  
+    left: 845px;
+     
+}
+
+.header_Description{
+    font-weight: 400;
+font-size: 20px;
+color: #444343;
+
+
+width: 494px;
+height: 78px;
+;
+}
+
+.header_button{
+    width: 160px;
+    height: 64px; 
+    background: #F15B22;
+    border-radius: 5px ;
+    border: transparent;
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* 2nd Pard */
+
+.container-img{
+    width: 560px;
+
+
+left: 206px;
+top: 939px;
+}
+.container-title{
+    
+}
+
+.container-details {
+    direction: rtl;
+}
+
+.Plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* part3 Plans */
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+     font-size: 40px;
+     color: #151414;
+
+}
+
+.plan-name{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-des{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.bottom-img{
+margin-top: 147px;
+background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+
+width: 1140px;
+height: 300px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bottom-img-txt{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 459px;
+height: 182px;
+
+}
+
+.call{
+    background: #FFFFFF;
+    border-radius: 5px; 
+    border: transparent;
+    width: 160px;
+height: 64px;
+}
