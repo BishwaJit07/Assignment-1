@@ -263,7 +263,7 @@ padding-right: 230px;
 .subscribe h3{
     font-weight: 600;
     font-size: 35px;
-    
+
     margin-bottom:5px;
 }
 
@@ -301,12 +301,66 @@ padding-right: 230px;
     line-height: 21px;
 }
 
+/* Extra-Quote */
+
+.Quote{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-left: 20px;
+ }
+
+ .Quote-1{
+    background-color: rgba(236, 222, 185, 0.733);
+border-radius: 5px;
+    width: 360px;
+    height: 350px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+
+
+}
+
+.Quote-2{
+    width: 360px;
+    height: 350px;
+    background-color: #6ce3f344;
+border-radius: 5px;
+
+padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.Quote-3{width: 360px;
+    height: 350px;
+    background: #ffd6e7a1;
+border-radius: 5px;
+
+padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.Quote-png {
+   align-items: center;
+   margin-left: 120px;  
+}
+
+.Quote-des{
+    font-size: 20px;
+    text-align: center;
+}
 /* Button Hover */
 
 .subscribe-btn:hover{
     color: #ffffff;
     
-    border: 2px solid #59f4ff;
+    
     border-radius: 5px; 
     background-color: red;
 }
