@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    
     font-family: 'Work Sans';
 }
 
@@ -7,19 +8,21 @@
    
     background-image: url(images/banner/banner1.png);
     
-    width: 1000px;
+    width: 1600px;
+    height: 700px;
   
     background-size: 100% 100%;
- background-repeat: no-repeat;
- 
+   background-repeat: no-repeat;
+    margin: 0%;
+    
 
 }
 
-.header{
-    text-align: right;
+.Header{
+    
     padding-top: 216px;
-    padding-right: 230px;
-    padding-left: 845px;
+    padding-left: 230px;
+    padding-right: 845px;
 }
 .header_title{
     font-weight: 700;
@@ -40,7 +43,7 @@ color: #444343;
 
 width: 494px;
 height: 78px;
-;
+  padding-bottom: 30px;
 }
 
 .header_button{
@@ -50,34 +53,82 @@ height: 78px;
     border-radius: 5px ;
     border: transparent;
 
+    padding-top: ;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
 }
 
 /* 2nd Pard */
-
+main{
+    background-color: #FFFFFF;
+}
 .container-img{
-    width: 560px;
-
-
-left: 206px;
-top: 939px;
-}
-.container-title{
-    
+    height: 600px;
+    width: 569px;
+    padding-right: 20px;
+   
+    padding-bottom:100px
 }
 
+/* .container-title{ */
+
+    .container{
+   display: flex;
+justify-content: center;
+
+vertical-align: middle;
+margin-bottom: 20px;
+}
+
+.containertext{
+    width: 416px;
+    height: 400px;
+    margin-right: 86px;
+margin-top: 200px;
+
+}
 .container-details {
-    direction: rtl;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #444343;
 }
 
-.Plans{
+
+  
+  .container-icon{
+      left: 16.67%;
+      right: 16.67%;
+      height: 10px;
+     
+  }
+  
+  .container-list{
+          font-weight: 400;
+          font-size: 16px;
+           list-style: none;
+          text-align:justify;
+          color: #444343;
+          width: 349px;
+          height: 162px;
+  }
+
+/* part3 Plans section */
+
+    
+.Plans{ 
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+
+    padding-left: 230px;
+     padding-right: 230px;
 }
 
-/* part3 Plans */
+.plan-section h2{
+    margin-top: 50px;
+  margin-bottom: 50px;}
+
 
 h2{
     text-align: center;
@@ -100,14 +151,30 @@ h2{
     color: #737272;
 }
 
+/* bottom img */
+.bottom-content{
+    width: 459px;
+    height: 182px; 
+   
+    margin-bottom: 200px ;
+
+  padding-right: 220px;
+  padding-left: 220px ;
+}
+
 .bottom-img{
 margin-top: 147px;
-background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+/* background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),  url(images/watch.png); */
+
+background-image: url(images/gradient2.png), url(images/watch.png);
+
 
 width: 1140px;
 height: 300px;
 background-size: cover;
 background-repeat: no-repeat;
+padding-right: 200px;
+padding-left: 250px;
 }
 
 .bottom-img-txt{
@@ -115,14 +182,119 @@ background-repeat: no-repeat;
     font-size: 40px;
     color: #FFFFFF;
     width: 459px;
-height: 182px;
-
+   height: 120px;
+   padding-top: 56px;
+   
+   margin-top: 5px;
 }
 
 .call{
+    color: #F15B22;
     background: #FFFFFF;
     border-radius: 5px; 
     border: transparent;
     width: 160px;
-height: 64px;
+     height: 64px;
+
+     font-weight: 600;
+     font-size: 20px;
+
+padding-top: 21px;
+  padding-bottom:20px;
+
+  margin-top: 20px ;
+  margin-bottom: 60px ;
+}
+
+/* Ending part */
+
+/* Contact Part */
+.foter-section{
+   
+    
+    height: 577px;
+    
+    /* margin-top: 1600px ;
+   margin-bottom:400px ; */
+     background: #151414;
+    
+/*      
+     margin: 0%; */
+
+     color: white;
+
+     display: flex;
+     
+}
+
+.contact-text{
+    padding-top: 130px ;
+    padding-bottom: 130px ;
+    padding-left: 230px ;
+    padding-right: 880px ;
+}
+
+.contact-text h3{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 16px ;
+}
+.contact-text p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ .contact-details p{
+    padding-top: 10px;
+  padding-bottom: 20px;
+ 
+}
+
+/* Subscribe part */
+.subscribe{
+    
+    padding-top: 130px ;
+    padding-bottom: 130px ;
+padding-right: 230px;
+
+}
+
+.subscribe h3{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px 36px;
+
+padding: 20px;
+    width: 170px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: transparent;
+
+}
+
+.email-id{
+    
+    height: 60px;
+    width: 350px;
+
+    margin-top: 31px;
+    margin-bottom: 20px;
+
+    background-color: #151414;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 8px;
+    color:white;
+
+    padding-left: 21px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
 }
