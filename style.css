@@ -1,12 +1,12 @@
 *{
     margin: 0%;
-    
+    padding: 0%;
     font-family: 'Work Sans';
 }
 
 .hover {
    
-    background-image: url(images/banner/banner1.png);
+    background-image: url(./images/banner/banner1.png);
     
     width: 1600px;
     height: 700px;
@@ -37,13 +37,12 @@
 
 .header_Description{
     font-weight: 400;
-font-size: 20px;
-color: #444343;
+     font-size: 20px;
+      color: #444343;
 
-
-width: 494px;
-height: 78px;
-  padding-bottom: 30px;
+     width: 494px;
+     height: 78px;
+    padding-bottom: 30px;
 }
 
 .header_button{
@@ -85,13 +84,14 @@ margin-bottom: 20px;
     width: 416px;
     height: 400px;
     margin-right: 86px;
-margin-top: 200px;
+   margin-top: 200px;
 
 }
 .container-details {
     font-weight: 400;
     font-size: 16px; 
     color: #444343;
+    padding-bottom: 15px;
 }
 
 
@@ -166,7 +166,7 @@ h2{
 margin-top: 147px;
 /* background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),  url(images/watch.png); */
 
-background-image: url(images/gradient2.png), url(images/watch.png);
+background-image: url(./images/gradient2.png), url(./images/watch.png);
 
 
 width: 1140px;
@@ -213,20 +213,21 @@ padding-top: 21px;
    
     
     height: 577px;
-    
-    /* margin-top: 1600px ;
-   margin-bottom:400px ; */
+     
      background: #151414;
-    
-/*      
-     margin: 0%; */
-
+    background:;
      color: white;
 
      display: flex;
      
+     
 }
 
+contact-text a{ 
+ 
+ justify-content: space-around;
+    
+}
 .contact-text{
     padding-top: 130px ;
     padding-bottom: 130px ;
@@ -262,7 +263,8 @@ padding-right: 230px;
 .subscribe h3{
     font-weight: 600;
     font-size: 35px;
-    margin-bottom: 10px;
+    
+    margin-bottom:5px;
 }
 
 .subscribe-btn{
@@ -270,7 +272,7 @@ padding-right: 230px;
     font-weight: 600;
     font-size: 20px 36px;
 
-padding: 20px;
+    padding: 20px;
     width: 170px;
     height: 65px;
     background: #FFFFFF;
@@ -297,4 +299,25 @@ padding: 20px;
     font-size: 20px;
     font-weight: 500;
     line-height: 21px;
+}
+
+/* Button Hover */
+
+.subscribe-btn:hover{
+    color: #ffffff;
+    
+    border: 2px solid #59f4ff;
+    border-radius: 5px; 
+    background-color: red;
+}
+
+.header_button:hover{
+   
+    color: #ffffff;
+   background-color: rgb(255, 8, 8);
+}
+
+.call:hover{
+background-color: #1b0cf3;
+color: #ffffff;
 }
